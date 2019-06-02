@@ -12,6 +12,6 @@ public class IntegerOverflowTest {
         capture.expect(containsString("i=1000000000"));
         capture.expect(containsString("i=2000000000"));
         capture.expect(containsString("i=3000000000"));
-        Main.main(null);
+        IntegerOverflow.main(null);
     }
 }

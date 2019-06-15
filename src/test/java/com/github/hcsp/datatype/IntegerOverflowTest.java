@@ -10,7 +10,7 @@ public class IntegerOverflowTest {
     public void printNumbersCorrectly(CaptureSystemOutput.OutputCapture capture) {
         capture.expect(Matchers.containsString("i=1000000000"));
         capture.expect(Matchers.containsString("i=2000000000"));
-        capture.expect(Mathcers.containsString("i=3000000000"));
+        capture.expect(Matchers.containsString("i=3000000000"));
         IntegerOverflow.main(null);
     }
 }

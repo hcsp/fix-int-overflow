@@ -5,13 +5,13 @@ public class IntegerOverflow {
     // Fix this method to make it output "i=3000000000"
     public static void main(String[] args) {
         int 十亿 = 10_0000_0000;
-        int i = 0;
+        long i = 0;
 
         i = i + 十亿;
         System.out.println("i=" + i);
         i = i + 十亿;
         System.out.println("i=" + i);
-        i = i + 十亿;
+        i = i +  十亿;
         System.out.println("i=" + i);
     }
 }

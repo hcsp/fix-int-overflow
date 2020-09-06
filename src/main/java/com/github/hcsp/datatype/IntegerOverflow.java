@@ -12,6 +12,6 @@ public class IntegerOverflow {
         i = i + 十亿;
         System.out.println("i=" + i);
         i = i + 十亿;
-        System.out.println("i=" + (long)i);
+        System.out.println("i=" + i);
     }
 }

@@ -9,8 +9,10 @@ public class IntegerOverflow {
 
         i = i + billion;
         System.out.println("i=" + i);
+
         i = i + billion;
         System.out.println("i=" + i);
+
         i = i + billion;
         System.out.println("i=" + i);
     }

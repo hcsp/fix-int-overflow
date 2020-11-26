@@ -4,8 +4,8 @@ public class IntegerOverflow {
     // 修复这个方法里的问题，使得它正确输出 "i=3000000000"
     // Fix this method to make it output "i=3000000000"
     public static void main(String[] args) {
-        double billion = 10_0000_0000;
-        double i = 0;
+        long billion = 10_0000_0000;
+        long i = 0;
 
         i = i + billion;
         System.out.println("i=" + i);

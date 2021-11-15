@@ -6,12 +6,13 @@ public class IntegerOverflow {
     public static void main(String[] args) {
         int 十亿 = 10_0000_0000;
         int i = 0;
+        long l = 0;
 
         i = i + 十亿;
         System.out.println("i=" + i);
         i = i + 十亿;
         System.out.println("i=" + i);
-        i = i + 十亿;
-        System.out.println("i=" + i);
+        l = (long)i + 十亿;
+        System.out.println("i=" + l);
     }
 }
